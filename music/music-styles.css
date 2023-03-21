@@ -1,35 +1,42 @@
 body, html {
-    height: 100%;
-    margin: 0 auto;
+    padding: 25px;
+    margin:0 auto;
+    max-width: 1400px;
+    align-items: center;
 }
+
 .background-container {
-    position: relative;
-    height: 100%;
+    position: fixed;
+    top: -5%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
     overflow: hidden;
-    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 200px; 
 }
 .main {
+    right:20%;
+    top: 20%;
+    transform: translate(12.5%, -8%);
     border-radius: 10px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 6px;
     font-size: 18px;
+    padding: 10px;
     color: #13181b;
     background: #ffffff50;
     text-align: center;
     font-family: sans-serif;
-    width: 80%;
-    max-width: 1000px;
     white-space: pre-line;
+    margin-bottom: 20%;
 }
 .blurred::after {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     backdrop-filter: blur(10px); /* apply the blur */
     pointer-events: none; /* make the overlay click-through */
+    margin-bottom: 10px;
   }
   
