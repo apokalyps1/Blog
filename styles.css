@@ -102,8 +102,8 @@ a:active {
   border-radius: 5px;
   padding: 5px;
   font-size: 18px;
-  width: 400px;
-  height: 160px;
+  max-width: 400px;
+  height: 50%;
   color: #1e262c;
   background: #ffffff30;
   text-align: left;
