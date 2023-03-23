@@ -16,11 +16,8 @@ body, html {
     padding-bottom: 200px; 
 }
 .main {
-    right:20%;
-    top: 20%;
-    transform: translate(12.5%, -8%);
     border-radius: 10px;
-    position: absolute;
+    position: relative;
     font-size: 18px;
     padding: 10px;
     color: #13181b;
