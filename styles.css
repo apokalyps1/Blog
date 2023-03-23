@@ -127,3 +127,6 @@ a:active {
   text-overflow: ellipsis;
 
 }
+.text {
+  max-width:70%;
+}
