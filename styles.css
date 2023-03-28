@@ -26,6 +26,7 @@ body{
   text-align: center;
   font-family: sans-serif;
   white-space: pre-line;
+  margin: 3% 10%;
 }
 html {
   scroll-behavior: smooth;
@@ -77,6 +78,7 @@ a:active {
 ::selection {
 	background: #9b77b99c;
 	color: rgb(49, 49, 49);
+  border-radius: 10px;
 }
 
 .music {
