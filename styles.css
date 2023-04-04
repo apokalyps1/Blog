@@ -26,7 +26,6 @@ body{
   text-align: center;
   font-family: sans-serif;
   white-space: pre-line;
-  margin: 3% 10%;
 }
 html {
   scroll-behavior: smooth;
@@ -71,7 +70,7 @@ a:active {
   max-width: 500px;
 }
 .menu:hover, .menu:active, .item:hover, .item:active {
-  background: #ffffff60;
+  background:  #fb77b960;
   scale: 1.01;
 }
 
