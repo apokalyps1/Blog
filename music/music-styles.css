@@ -1,7 +1,8 @@
 body, html {
-    margin:0 0;
+    margin:0 auto;
     max-width: 1400px;
     align-items: center;
+    scroll-behavior: smooth;
 }
 
 .background-container {
@@ -12,6 +13,7 @@ body, html {
     height: 120vh;
     overflow: hidden;
 }
+
 .main {
     border-radius: 10px;
     position: relative;

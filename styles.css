@@ -11,13 +11,9 @@ body{
   font-size: 40px;
   text-align: center;
 }
-@keyframes opacity {
-  from {background: #ffffff30; scale: 1;}
-  to {background: #ffffff60; scale: 1.02;}
-}
 
 .main {
-  margin-bottom: 10px;
+  margin-bottom: 1%;
   border-radius: 10px;
   padding: 6px;
   font-size: 18px;
@@ -29,12 +25,6 @@ body{
 }
 html {
   scroll-behavior: smooth;
-}
-
-.menu.animate {
-  background: #000000;
-  animation: foreward;
-  animation-duration: 0.2s;
 }
 
 .menu {
@@ -50,26 +40,30 @@ html {
   transition: 0.1s ease-out;
   border: none;
 }
+a {
+  transition: 0.2s ease-in-out;
+}
 a:link {
   text-decoration: none;
   max-width: 500px;
+  color: #0f0f0f;
 }
 
 a:visited {
   text-decoration: none;
   max-width: 500px;
+  color: #0f0f0f;
 }
 
-a:hover {
+a:hover, a:active {
   text-decoration: none;
   max-width: 500px;
+  color: #000000;
+  background:  #fb77b960;
 }
 
-a:active {
-  text-decoration: none;
-  max-width: 500px;
-}
-.menu:hover, .menu:active, .item:hover, .item:active {
+
+.menu:hover, .menu:active, .item:hover, .item:active{
   background:  #fb77b960;
   scale: 1.01;
 }
@@ -130,4 +124,17 @@ a:active {
 }
 .text {
   max-width:70%;
+}
+.head {
+  margin-bottom: 1%;
+  border-radius: 10px;
+  padding: 1%;
+  font-size: 18px;
+  color: #1e262c;
+  background: #ffffff30;
+  text-align: left;
+  font-family: sans-serif;
+  text-decoration: none;
+  transition: 0.1s ease-out;
+  border: none;
 }
